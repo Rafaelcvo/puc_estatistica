@@ -1,1 +1,1 @@
-# puc_estatistica
+# Repositório da aula de estatística da Puc Minas
