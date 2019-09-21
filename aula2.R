@@ -78,4 +78,29 @@ pR2(ajuste2)
 par(mfrow=c(2,2))
 plot(ajuste2)
 
+coef2 <- data.frame(coef(ajuste2))
+p_hat <- (exp(coef2[1,] + coef2[2,]*20 + coef2[3,] + coef2[4,] +
+                coef2[5,] + coef2[6,]*10 + coef2[8,]))/
+  (1+exp(coef2[1,] + coef2[2,]*20 + coef2[3,] + coef2[4,] +
+           coef2[5,] + coef2[6,]*10 + coef2[8,]))
+p_hat
+
+coef2 <- data.frame(coef(ajuste2))
+p_hat <- (exp(coef2[1,] + coef2[2,]*20 + coef2[3,] + 
+                coef2[5,] + coef2[6,]*10 + coef2[8,]))/
+  (1+exp(coef2[1,] + coef2[2,]*20 + coef2[3,] + 
+           coef2[5,] + coef2[6,]*10 + coef2[8,]))
+p_hat
+
+
+
+
+
+
+
+
+
+
+
+
 
