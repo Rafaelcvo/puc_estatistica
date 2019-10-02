@@ -1,5 +1,6 @@
 # Obtenha um modelo preditivo usando como variável resposta o fato de o bebê ter ou não baixo peso.
-# lowbwt - Baixo peso ao nascer: 1-Low(baixo) / 0-Normal
+# lowbwt - Baixo peso ao nascer: 1-Low(baixo) / 0-Normal -Variavel dependente
+# https://www.datacamp.com/community/tutorials/logistic-regression-R
 
 # Importando o dataset.
 library(readxl)
