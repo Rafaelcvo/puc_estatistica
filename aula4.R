@@ -1,7 +1,6 @@
 data("AirPassengers")
 View(AirPassengers)
 
-
 plot(AirPassengers)
 
 boxplot(AirPassengers~cycle(AirPassengers))
